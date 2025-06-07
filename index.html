@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiloi Property Managers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- Placeholder for logo -->
+                <img src="logo.png" alt="Tiloi Property Managers Logo">
+            </div>
+            <div class="header-text">
+                <h1>Welcome to <br><b class="large-text">Tiloi Property Managers</b></h1>
+                <p>Property Consultancy & Management Solutions</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#ourservices">Our Services</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#advertisement">Advertisements</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#signin">Signin</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About <br><span class="highlight">Tiloi Property Managers</span></h2>
+            <p>We are a leading property management firm based in Nairobi, Kenya. With years of experience, we offer property management, real estate consultancy, and other real estate services to property owners and investors.</p>
+        </section>
+<!-- Advertisement Section -->
+<section id="advertisement">
+    <h2>Property Advertisements</h2>
+    <div class="advertisement-list">
+        <div class="advertisement">
+            <img src="saina.jpg" alt="Ad 1">
+            <h3>3-Bedroom House for Sale</h3>
+            <p>Located in Westlands, Nairobi.</p>
+      
+    </div>
+</section>
+
+<!-- Our Services Section -->
+<section id="ourservices">
+    <h2>Our Services</h2>
+    <ul>
+        <li>ESTATE MANAGEMENT</li>
+        <li>Real Estate Consultancy</li>
+        <li>CCTV installation</li>
+        <li>Access control</li>
+        <li>Fire equipment /fire detectors installation</li>
+        <li>Alarm Services</li>
+    </ul>
+</section>
+     </section>
+
+        <!-- Properties Section -->
+        <section id="properties">
+            <h2>Our Properties</h2>
+            <div class="property-list">
+                <div class="property">
+                    <img src="saina.jpg" alt="Property 1">
+                    <h3>SAINA'S BUSINESS CENTRE</h3>
+                    <p>Located in Kapsabet Town.</p>
+                </div>
+                <div class="property">
+                    <img src="marbella.jpg" alt="Property 2">
+                    <h3>Marbella Court</h3>
+                    <p>Prime office spaces available for lease.</p>
+                </div>
+                <div class="property">
+                    <img src="Tiloi.jpg" alt="Property 2">
+                    <h3>Tiloi Plaza</h3>
+                    <p>Prime office spaces available for lease.</p>
+                </div>
+                <div class="property">
+                    <img src="prime.jpg" alt="Property 2">
+                    <h3>Prime Villas</h3>
+                    <p>Prime office spaces available for lease.</p>
+                </div>
+                <!-- Add more properties as needed -->
+            </div>
+        </section>
+
+             <!-- Sign In Section -->
+<section id="login">
+    <h2>Sign In</h2>
+    <div class="login-options">
+        <a href="#staff-login" class="login-option">Staff</a>
+        <a href="#landlord-login" class="login-option">Landlord</a>
+    </div>
+
+    <!-- Staff Sign In Form -->
+    <div id="staff-login" class="login-form">
+        <h3>Staff</h3>
+        <form action="staff-login-process.php" method="POST">
+            <label for="staff-username">Username:</label>
+            <input type="text" id="staff-username" name="username" placeholder="Enter your username" required>
+            
+            <label for="staff-password">Password:</label>
+            <input type="password" id="staff-password" name="password" placeholder="Enter your password" required>
+            
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+
+    <!-- Landlord Sign In Form -->
+    <div id="landlord-login" class="login-form">
+        <h3>Landlord</h3>
+        <form action="landlord-login-process.php" method="POST">
+            <label for="landlord-username">Username:</label>
+            <input type="text" id="landlord-username" name="username" placeholder="Enter your username" required>
+            
+            <label for="landlord-password">Password:</label>
+            <input type="password" id="landlord-password" name="password" placeholder="Enter your password" required>
+            
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: +254 720 810 712</p>
+    <p>Email: info@tiloi.co.ke</p>
+    <p>Address: Nairobi, Kenya</p>
+</section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p><strong>&copy; 2024 Tiloi Property Managers. All rights reserved.</strong></p>
+    </footer>
+</body>
+
+</html>
